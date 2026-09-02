@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=Vastavik&fontSize=80&fontColor=ffffff&fontAlignY=35&desc=One%20Product.%20Every%20Platform.%20Built%20by%20Parth.&descSize=20&descAlignY=55&descColor=ffffff" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Flutter+%7C+Electron+%7C+Web+%7C+iOS;Cross-platform+%E2%9A%A1+Single+Codebase+%F0%9F%9A%80;Built+with+%E2%9D%A4%EF%B8%8F+by+Parth+Vastavik)](https://github.com/parthasdey2304)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Flutter+%7C+Electron+%7C+Web+%7C+Android;Cross-platform+%E2%9A%A1+Single+Codebase+%F0%9F%9A%80;Built+with+%E2%9D%A4%EF%B8%8F+by+Parth+Vastavik)](https://github.com/parthasdey2304)
 
 <p align="center">
   <a href="https://github.com/parthasdey2304"><img src="https://img.shields.io/badge/Maintained%20by-Parth%20Vastavik-00D9FF?style=for-the-badge&logo=github&logoColor=white" alt="Maintainer"/></a>
@@ -39,6 +39,7 @@ This repository is the home of the **Vastavik** organisation — the umbrella un
 | Platform | Stack | Target |
 |:---:|:---:|:---:|
 | 📱 **iOS** | Flutter | iPhone & iPad |
+| 📱 **Android** | Kotlin | Android Phone and Tablet |
 | 🌐 **Web** | Modern Web (React/Next.js) | All Browsers |
 | 🖥️ **Desktop** | Electron.js | macOS · Windows · Linux |
 

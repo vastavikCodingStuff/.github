@@ -7,8 +7,8 @@
 <p align="center">
   <a href="https://github.com/parthasdey2304"><img src="https://img.shields.io/badge/Maintained%20by-Parth%20Vastavik-00D9FF?style=for-the-badge&logo=github&logoColor=white" alt="Maintainer"/></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-7C3AED?style=for-the-badge&logo=open-source-initiative&logoColor=white" alt="License"/></a>
-  <a href="#-platforms"><img src="https://img.shields.io/badge/Platforms-4-10B981?style=for-the-badge&logo=electron&logoColor=white" alt="Platforms"/></a>
-  <a href="#-tech-stack"><img src="https://img.shields.io/badge/Tech-5+-F59E0B?style=for-the-badge&logo=flutter&logoColor=white" alt="Tech"/></a>
+  <a href="#-platforms"><img src="https://img.shields.io/badge/Platforms-5-10B981?style=for-the-badge&logo=android&logoColor=white" alt="Platforms"/></a>
+  <a href="#-tech-stack"><img src="https://img.shields.io/badge/Tech-6+-F59E0B?style=for-the-badge&logo=flutter&logoColor=white" alt="Tech"/></a>
 </p>
 
 <p align="center">
@@ -24,9 +24,9 @@
 
 ## ✨ Overview
 
-**Vastavik** is a unified, cross-platform application suite that delivers a single product experience across **iOS, Web, macOS, Windows, and Linux**. Built with a focus on performance, design consistency, and developer experience, Vastavik is engineered so that the same product, the same code philosophy, and the same user journey work everywhere.
+**Vastavik** is a unified, cross-platform application suite that delivers a single product experience across **iOS, Android, Web, macOS, Windows, and Linux**. Built with a focus on performance, design consistency, and developer experience, Vastavik is engineered so that the same product, the same code philosophy, and the same user journey work everywhere.
 
-> *"One codebase. Four platforms. Zero compromise."*
+> *"One codebase. Five platforms. Zero compromise."*
 
 This repository is the home of the **Vastavik** organisation — the umbrella under which all client applications live and evolve together.
 
@@ -58,6 +58,19 @@ A native-feeling **iOS application** built with **Flutter**, delivering smooth a
 - Offline-first architecture
 - Push notifications & deep linking ready
 
+### 🤖 Android App — Kotlin
+A **native Android application** built with **Kotlin**, bringing the Vastavik experience to the world's most widely-used mobile platform with a true Material You feel.
+
+- Built with **Kotlin** on **Android Studio**
+- Targets **Android Phones and Tablets** (phones & form-factor tablets)
+- **Material 3** design with dynamic colour theming
+- **Jetpack Compose** UI for modern, declarative rendering
+- **Kotlin Coroutines + Flow** for reactive async work
+- **Room / DataStore** for offline-first persistence
+- **Hilt** for dependency injection
+- **Retrofit + OkHttp** for networking
+- Adapts seamlessly across phone, foldables, and tablets
+
 ### 🌐 Web App
 A blazing-fast, SEO-friendly **web application** that mirrors the mobile experience on the open web.
 
@@ -87,30 +100,35 @@ The **Catalan-language** variant of the product — a first-class citizen, not a
 ## 🏗️ Architecture
 
 ```
-┌────────────────────────────────────────────────────────────┐
-│                     VASTAVIK  PLATFORM                     │
-├────────────────────────────────────────────────────────────┤
-│                                                            │
-│   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
-│   │  Flutter App │  │   Web App    │  │ Electron App │     │
-│   │    (iOS)     │  │  (Browser)   │  │ mac/Win/Lin  │     │
-│   └──────┬───────┘  └──────┬───────┘  └──────┬───────┘     │
-│          │                 │                 │             │
-│          └─────────────────┼─────────────────┘             │
-│                            ▼                               │
-│                  ┌────────────────────┐                    │
-│                  │   Shared Core API  │                    │
-│                  │   + Design System  │                    │
-│                  └─────────┬──────────┘                    │
-│                            ▼                               │
-│                  ┌────────────────────┐                    │
-│                  │  Backend Services  │                    │
-│                  └────────────────────┘                    │
-│                                                            │
-│   ┌─────────────────────────────────────────────────┐      │
-│   │  Locales:  en · ca (Català) · es · +more         │      │
-│   └─────────────────────────────────────────────────┘      │
-└────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────┐
+│                       VASTAVIK  PLATFORM                         │
+├──────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐           │
+│   │  Flutter App │  │ Kotlin App   │  │   Web App    │           │
+│   │    (iOS)     │  │  (Android)   │  │  (Browser)   │           │
+│   └──────┬───────┘  └──────┬───────┘  └──────┬───────┘           │
+│          │                 │                 │                   │
+│          │          ┌──────┴───────┐         │                   │
+│          │          │ Electron App │         │                   │
+│          │          │ mac/Win/Lin  │         │                   │
+│          │          └──────┬───────┘         │                   │
+│          │                 │                 │                   │
+│          └─────────────────┼─────────────────┘                   │
+│                            ▼                                     │
+│                  ┌────────────────────┐                          │
+│                  │   Shared Core API  │                          │
+│                  │   + Design System  │                          │
+│                  └─────────┬──────────┘                          │
+│                            ▼                                     │
+│                  ┌────────────────────┐                          │
+│                  │  Backend Services  │                          │
+│                  └────────────────────┘                          │
+│                                                                  │
+│   ┌────────────────────────────────────────────────────┐         │
+│   │  Locales:  en · ca (Català) · es · +more            │         │
+│   └────────────────────────────────────────────────────┘         │
+└──────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -121,13 +139,14 @@ The **Catalan-language** variant of the product — a first-class citizen, not a
 
 | Layer | Technology |
 |:---|:---|
-| 📱 Mobile | Flutter · Dart |
+| 📱 iOS Mobile | Flutter · Dart |
+| 🤖 Android Mobile | Kotlin · Jetpack Compose · Coroutines |
 | 🌐 Web | React / Next.js · TypeScript |
 | 🖥️ Desktop | Electron.js · Node.js |
 | 🎨 Design | Figma · Material 3 · Cupertino |
-| 🌍 i18n | Flutter intl · i18next |
-| ⚙️ Build | Vite · Webpack · electron-builder |
-| 🧪 Testing | Jest · Flutter Test · Playwright |
+| 🌍 i18n | Flutter intl · i18next · Android string resources |
+| ⚙️ Build | Vite · Webpack · electron-builder · Gradle |
+| 🧪 Testing | Jest · Flutter Test · Playwright · JUnit · Espresso |
 | 📦 CI/CD | GitHub Actions |
 
 </div>
@@ -139,6 +158,8 @@ The **Catalan-language** variant of the product — a first-class citizen, not a
 ### Prerequisites
 - **Node.js** ≥ 18
 - **Flutter** ≥ 3.16
+- **JDK** ≥ 17 (for Android / Kotlin builds)
+- **Android Studio** (with Android SDK & emulator)
 - **Git**
 
 ### Clone
@@ -161,6 +182,14 @@ flutter pub get
 flutter run
 ```
 
+### Run the Android App (Kotlin)
+```bash
+cd android-app
+./gradlew assembleDebug          # build a debug APK
+./gradlew installDebug           # install to a connected device/emulator
+# Or open the android-app/ folder in Android Studio and hit ▶ Run
+```
+
 ### Run the Desktop App (Electron)
 ```bash
 cd desktop
@@ -175,6 +204,7 @@ npm run dev
 ```
 vastavikCodingStuff/
 ├── 📱 mobile/        # Flutter app (iOS)
+├── 🤖 android-app/   # Kotlin app (Android Phones & Tablets)
 ├── 🌐 web/           # Web application
 ├── 🖥️ desktop/      # Electron desktop app
 ├── 🐱 catalan/       # Catalan locale & resources

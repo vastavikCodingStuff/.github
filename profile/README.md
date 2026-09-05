@@ -8,7 +8,7 @@
   <a href="https://github.com/vastavikCodingStuff">
     <img src="https://img.shields.io/badge/GitHub-vastavikCodingStuff-181717?style=for-the-badge&logo=github" alt="GitHub Organization" />
   </a>
-  <a href="https://vastavik-learning-web.vercel.app">
+  <a href="https://vastaviklearning.online">
     <img src="https://img.shields.io/badge/Live-vastavik--learning--web.vercel.app-000000?style=for-the-badge&logo=vercel" alt="Live Website" />
   </a>
   <a href="https://github.com/vastavikCodingStuff/vastavikLearning-backend-app/blob/main/LICENSE">
@@ -123,7 +123,7 @@ Native Android client for student-focused learning experiences. Built entirely w
 | **Language** | TypeScript 5.6.3 (strict) |
 | **Framework** | Next.js 14.2.35 (App Router) |
 | **CSS** | Tailwind CSS 3.4.13 + custom Neo-Brutalist design system |
-| **Live Site** | [vastavik-learning-web.vercel.app](https://vastavik-learning-web.vercel.app) |
+| **Live Site** | [vastaviklearning.online](https://vastaviklearning.online) |
 | **License** | Apache License 2.0 |
 
 Web experience for the Vastavik Learning platform. A deliberately minimal, zero-dependency Next.js application with only 3 runtime dependencies (next, react, react-dom). Every UI component, the auth system, and the entire design system are hand-built from scratch.
@@ -180,7 +180,7 @@ Web experience for the Vastavik Learning platform. A deliberately minimal, zero-
 |---|---|---|---|
 | **vastavikLearning-backend-app** | Backend services and API layer for the Vastavik Learning platform | Python | [View →](https://github.com/vastavikCodingStuff/vastavikLearning-backend-app) |
 | **vastavikLearning-app** | Native Android client for student learning experiences | Kotlin | [View →](https://github.com/vastavikCodingStuff/vastavikLearning-app) |
-| **vastavikLearning-web** | Web experience for the Vastavik Learning platform | TypeScript | [View →](https://github.com/vastavikCodingStuff/vastavikLearning-web) · [Live →](https://vastavik-learning-web.vercel.app) |
+| **vastavikLearning-web** | Web experience for the Vastavik Learning platform | TypeScript | [View →](https://github.com/vastavikCodingStuff/vastavikLearning-web) · [Live →](https://vastaviklearning.online) |
 | **.github** | Organization profile, README, and shared resources | — | [View →](https://github.com/vastavikCodingStuff/.github) |
 
 ---
@@ -218,7 +218,7 @@ Check each repository's `LICENSE` file for the authoritative license terms.
   <a href="https://github.com/vastavikCodingStuff">
     <img src="https://img.shields.io/badge/GitHub-vastavikCodingStuff-181717?style=flat-square&logo=github" alt="GitHub" />
   </a>
-  <a href="https://vastavik-learning-web.vercel.app">
+  <a href="https://vastaviklearning.online">
     <img src="https://img.shields.io/badge/Website-vastavik--learning--web.vercel.app-000000?style=flat-square&logo=vercel" alt="Website" />
   </a>
 </p>

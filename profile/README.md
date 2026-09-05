@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/GitHub-vastavikCodingStuff-181717?style=for-the-badge&logo=github" alt="GitHub Organization" />
   </a>
   <a href="https://vastaviklearning.online">
-    <img src="https://img.shields.io/badge/Live-vastavik--learning--web.vercel.app-000000?style=for-the-badge&logo=vercel" alt="Live Website" />
+    <img src="https://img.shields.io/badge/Live-vastaviklearning.online-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Website" />
   </a>
   <a href="https://github.com/vastavikCodingStuff/vastavikLearning-backend-app/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge" alt="Apache License 2.0" />
@@ -219,6 +219,6 @@ Check each repository's `LICENSE` file for the authoritative license terms.
     <img src="https://img.shields.io/badge/GitHub-vastavikCodingStuff-181717?style=flat-square&logo=github" alt="GitHub" />
   </a>
   <a href="https://vastaviklearning.online">
-    <img src="https://img.shields.io/badge/Website-vastavik--learning--web.vercel.app-000000?style=flat-square&logo=vercel" alt="Website" />
+    <img src="https://img.shields.io/badge/Website-vastaviklearning.online-000000?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" />
   </a>
 </p>
